@@ -1,6 +1,6 @@
-# TraderEvolution MCP Plugin for Claude Code
+# Trade Revolution MCP Plugin for Claude Code
 
-A powerful Model Context Protocol (MCP) plugin that integrates TraderEvolution trading platform with Claude Code, enabling seamless access to trading tools, position management, and market data.
+A powerful Model Context Protocol (MCP) plugin that integrates Trade Revolution trading platform with Claude Code, enabling seamless access to trading tools, position management, and market data.
 
 ## Features
 
@@ -16,13 +16,31 @@ A powerful Model Context Protocol (MCP) plugin that integrates TraderEvolution t
 
 ### Prerequisites
 - Claude Code (latest version)
-- Active TraderEvolution trading account with API access
+- Active Trade Revolution trading account with login credentials
 
-### Setup
+### Quick Setup
 
-1. **Add to Claude Code Configuration**
+The plugin uses Trade Revolution's OAuth authentication. Here's how it works:
 
-Add the following to your `.claude/mcp.json`:
+1. **Install the plugin in Claude Code**
+2. **First time you use it**, Claude Code will redirect you to Trade Revolution login page
+3. **Log in with your username and password**
+4. **Grant permission** for Claude Code to access your account
+5. **Start trading!** You're now connected to your Trade Revolution account
+
+### Detailed Setup
+
+#### Option 1: Automatic Configuration (Recommended)
+
+1. Open Claude Code
+2. The MCP configuration will be auto-detected
+3. On first use, you'll be prompted to authenticate
+4. Follow the OAuth flow to log in to your Trade Revolution account
+
+#### Option 2: Manual Configuration
+
+1. Open your Claude Code configuration file `.claude/mcp.json`
+2. Add the Trade Revolution MCP server:
 
 ```json
 {
@@ -34,9 +52,35 @@ Add the following to your `.claude/mcp.json`:
 }
 ```
 
-2. **Restart Claude Code** to activate the plugin
+3. Save and restart Claude Code
+4. On first use, you'll be prompted to authenticate via OAuth
 
-3. **Start Using** - The MCP tools will now be available in Claude Code
+### Authentication Flow
+
+- The plugin uses **OAuth 2.0** for secure authentication
+- You log in with your **personal Trade Revolution credentials**
+- Each user has **their own session** and **separate account access**
+- No passwords are stored in Claude Code
+- Your session is maintained securely
+
+### First Use
+
+When you first use a Trade Revolution command in Claude Code:
+
+1. Claude Code detects you're not authenticated
+2. Directs you to Trade Revolution login page
+3. Enter your **username** and **password**
+4. Approve Claude Code access to your account
+5. You're redirected back to Claude Code
+6. Start using all Trading Revolution features!
+
+### Logging Out / Resetting Authentication
+
+To reset authentication or log out:
+
+1. Remove the Trade Revolution credentials from your Claude Code session
+2. Clear browser cookies from Trade Revolution (if using OAuth page)
+3. Next time you use a command, you'll be prompted to log in again
 
 ## Available Tools
 
@@ -99,7 +143,7 @@ Claude: [displays all open positions with P&L]
 ## Security
 
 - No hardcoded credentials required
-- All authentication handled through TraderEvolution API
+- All authentication handled through Trade Revolution API
 - Secure connection via HTTPS
 - Support for API key management
 
@@ -107,7 +151,7 @@ Claude: [displays all open positions with P&L]
 
 For issues, feature requests, or questions:
 - GitHub Issues: [Project Repository]
-- TraderEvolution Support: https://traderevolution.com
+- Trade Revolution Support: https://traderevolution.com
 
 ## License
 

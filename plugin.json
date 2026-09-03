@@ -32,7 +32,8 @@
   },
   "requirements": {
     "claudeCodeVersion": ">=1.0.0",
-    "apiAccess": "Trade Revolution API"
+    "tradeRevolutionAccount": "Active account with API access",
+    "oauthCredentials": "OAuth Client ID and Secret (from Trade Revolution account settings)"
   },
   "installation": {
     "manual": {
