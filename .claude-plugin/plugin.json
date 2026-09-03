@@ -1,0 +1,11 @@
+{
+  "name": "trade-revolution",
+  "description": "Trading tools for the TraderEvolution platform: place and manage orders, inspect positions and account state, and read live market data.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Denis Mikhailenko"
+  },
+  "homepage": "https://github.com/dmikhailenko-hash/claude-mcp-plugin",
+  "repository": "https://github.com/dmikhailenko-hash/claude-mcp-plugin",
+  "license": "MIT"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "claude-mcp-plugin",
+  "owner": {
+    "name": "Denis Mikhailenko"
+  },
+  "plugins": [
+    {
+      "name": "trade-revolution",
+      "source": ".",
+      "description": "Trading tools for the TraderEvolution platform: place and manage orders, inspect positions and account state, and read live market data."
+    }
+  ]
+}

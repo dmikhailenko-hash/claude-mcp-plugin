@@ -1,9 +1,8 @@
 {
   "mcpServers": {
     "traderevolution": {
+      "type": "http",
       "url": "https://test-clientapi.traderevolution.com/traderevolution/v1/mcp"
     }
   }
 }
-
-
