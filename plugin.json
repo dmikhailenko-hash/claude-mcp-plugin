@@ -1,0 +1,47 @@
+{
+  "name": "Trade Revolution MCP",
+  "version": "1.0.0",
+  "description": "Claude Code MCP plugin for Trade Revolution trading platform - manage orders, positions, and access real-time market data",
+  "author": "Trade Revolution",
+  "license": "MIT",
+  "keywords": [
+    "trading",
+    "mcp",
+    "finance",
+    "orders",
+    "positions",
+    "market-data"
+  ],
+  "homepage": "https://github.com/dmikhailenko-hash/claude-mcp-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmikhailenko-hash/claude-mcp-plugin.git"
+  },
+  "mcp": {
+    "url": "https://test-clientapi.traderevolution.com/traderevolution/v1/mcp",
+    "type": "stdio",
+    "autoStart": true
+  },
+  "capabilities": {
+    "orders": true,
+    "positions": true,
+    "accountManagement": true,
+    "marketData": true,
+    "riskManagement": true,
+    "tradingHistory": true
+  },
+  "requirements": {
+    "claudeCodeVersion": ">=1.0.0",
+    "apiAccess": "Trade Revolution API"
+  },
+  "installation": {
+    "manual": {
+      "steps": [
+        "Add to .claude/mcp.json in your Claude Code config",
+        "Restart Claude Code",
+        "Start using Trading Revolution tools"
+      ],
+      "configUrl": ".claude/mcp.json"
+    }
+  }
+}
