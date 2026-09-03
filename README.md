@@ -1,4 +1,4 @@
-# TraderEevolution MCP Plugin for Claude Code
+# TraderEvolution MCP Plugin for Claude Code
 
 A powerful Model Context Protocol (MCP) plugin that integrates TraderEvolution trading platform with Claude Code, enabling seamless access to trading tools, position management, and market data.
 
