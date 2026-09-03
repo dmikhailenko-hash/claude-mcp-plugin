@@ -1,6 +1,6 @@
-# Trade Revolution MCP Plugin for Claude Code
+# TraderEevolution MCP Plugin for Claude Code
 
-A powerful Model Context Protocol (MCP) plugin that integrates Trade Revolution trading platform with Claude Code, enabling seamless access to trading tools, position management, and market data.
+A powerful Model Context Protocol (MCP) plugin that integrates TraderEvolution trading platform with Claude Code, enabling seamless access to trading tools, position management, and market data.
 
 ## Features
 
@@ -16,7 +16,7 @@ A powerful Model Context Protocol (MCP) plugin that integrates Trade Revolution 
 
 ### Prerequisites
 - Claude Code (latest version)
-- Active Trade Revolution trading account with API access
+- Active TraderEvolution trading account with API access
 
 ### Setup
 
@@ -36,7 +36,7 @@ Add the following to your `.claude/mcp.json`:
 
 2. **Restart Claude Code** to activate the plugin
 
-3. **Start Using** - The Trade Revolution MCP tools will now be available in Claude Code
+3. **Start Using** - The MCP tools will now be available in Claude Code
 
 ## Available Tools
 
@@ -99,7 +99,7 @@ Claude: [displays all open positions with P&L]
 ## Security
 
 - No hardcoded credentials required
-- All authentication handled through Trade Revolution API
+- All authentication handled through TraderEvolution API
 - Secure connection via HTTPS
 - Support for API key management
 
@@ -107,7 +107,7 @@ Claude: [displays all open positions with P&L]
 
 For issues, feature requests, or questions:
 - GitHub Issues: [Project Repository]
-- Trade Revolution Support: https://traderevolution.com
+- TraderEvolution Support: https://traderevolution.com
 
 ## License
 
